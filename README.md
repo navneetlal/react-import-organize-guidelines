@@ -8,7 +8,7 @@ Guidelines for organizing imports in reactjs
     1. React components from external library like `@material-ui/core`, `@mui/material`, `antd`, `react-bootstrap`, etc should be groped next.
     1. Icon components from external library like `react-icons`, `@material-ui/icons`, `@mui/icons-material`, `@ant-design/icons` should be grouped next.
     1. Repeat step 3, 4 for the internal library.
-    1. Imports from internal utils, libs should be grouped next
+    1. Repeat step 2 for the internal library.
     1. Store, Actions, [Epics, Reducers], & Types should be grouped next in the same order.
     1. Any images, css, files, etc should be last to be imported and grouped in one.
 1. Sorting
