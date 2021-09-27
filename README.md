@@ -34,7 +34,7 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 
-import ChevronLeft from '@material-ui/icons/ChevronLeft';
+import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 import { makeStyles, useTheme } from '@material-ui/core/styles';
@@ -48,13 +48,13 @@ import TextBox from '@common/textbox/Textbox';
 import AddIcon from '@common/icons/AddIcon';
 import DeleteIcon from '@common/icons/DeleteIcon';
 import SubtractIcon from '@common/icons/SubtractIcon';
-import YellowFlag from '@common/icons/YellowFlag';
+import FlagIcon from '@common/icons/FlagIcon';
 
 import type { RootState } from '@store/store';
 import { addCustomer, addLocation, getLocation } from '@store/track-n-trace/actions';
 
-import NewCustomer from '../components/Customer';
-import NewLocation from '../components/Location';
+import Customer from '../components/Customer';
+import Location from '../components/Location';
 
 import 'font-awesome/css/font-awesome.min.css';
 import '../styles/globals.css';
