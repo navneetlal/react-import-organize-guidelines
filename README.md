@@ -51,7 +51,7 @@ import SubtractIcon from '@common/icons/SubtractIcon';
 import FlagIcon from '@common/icons/FlagIcon';
 
 import type { RootState } from '@store/store';
-import { addCustomer, addLocation, getLocation } from '@store/track-n-trace/actions';
+import { addCustomer, addLocation, getLocation } from '@store/actions';
 
 import Customer from '../components/Customer';
 import Location from '../components/Location';
